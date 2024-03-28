@@ -6,8 +6,6 @@ int main()
     char choice;
     float a, b;
 
-
-    
     while(1)
     {  
          
@@ -22,6 +20,7 @@ int main()
 
         printf("Enter two numbers: ");
         scanf("%f %f", &a, &b);
+        
         switch (choice)
         {
         case '+':

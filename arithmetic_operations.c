@@ -22,7 +22,7 @@ float divide(float a, float b)
 {
     if(b == 0)
     {
-        printf("Error, you can't divide on 0");
+        printf("Error, you can't divide on 0\n");
         return 0;
     }
     return a / b;
